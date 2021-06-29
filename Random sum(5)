@@ -1,0 +1,9 @@
+import random
+for j in range(100):
+    l =[]
+    for i in range(3):
+        n = random.randint(1,100)
+        if n%5 == 0:
+            if n%15 != 0:
+                l.append(n)
+    print(l,sum(l))
