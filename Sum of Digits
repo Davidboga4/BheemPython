@@ -1,0 +1,14 @@
+n = int(input())
+
+
+def fun(x):
+    add = 0
+    for i in str(x):
+        add += int(i)
+    return add
+
+
+a = fun(n)
+while a > 9:
+    a = fun(a)
+print(a)
