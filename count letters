@@ -1,0 +1,9 @@
+str = input()
+print(str.title())
+a = str.split()
+b = 0
+for i in a:
+    b += len(i)
+print(b)
+str.lower()
+print(str.count(input().lower()))
